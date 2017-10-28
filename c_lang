@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int a,b,c,d,e,f;
+int a,b,c,d,e,f,g;
 printf("ENTER 2 NUMBER FOR SUM AND SUBTRACTION");
 scanf("%d%d",&a,&b);
 c=a+b;
@@ -16,7 +16,9 @@ e=a*b;
 printf("multiplying=%d",e);
 f=a/b;
 printf("division=%d",f);
-
+g=a%b;
+printf("modulus=%d",g);
 
 }
+
 
